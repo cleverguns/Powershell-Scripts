@@ -1,18 +1,3 @@
-﻿#+-------------------------------------------------------------------+  
-#| = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = |  
-#|{>/-------------------------------------------------------------\<}|           
-#|: | Author:                                     | :|           
-#| :| Email:  
-#|: | Purpose: Smart Backup and create folder by Date       
-#| :|          
-#|: |           						                    
-#| :|          
-#|: |         		
-#|: |                            
-#| :| 	/^(o.o)^\    Version: 1          						  |: | 
-#|{>\-------------------------------------------------------------/<}|
-#| = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = : = |
-#+-------------------------------------------------------------------+
 
 
 #System Variable for backup Procedure
@@ -27,7 +12,7 @@
 
  $smtp = "Exchange-server"
  $from = "Tally Backup <tally.backup@xyz.com>"
- $to = "Aman Dhally <amandhally@gmail.com>"
+ $to = "Juan Pogi <gimpaya@gmail.com>"
  $body = "Log File of TALLY bacupk is attached, backup happens on of Date: $date"
  $subject = "Backup on $date"
  
